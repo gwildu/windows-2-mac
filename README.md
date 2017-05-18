@@ -7,7 +7,7 @@ I'm working on a Mac with a swiss german keyboard if you have another keyboard, 
 | Windows | Mac | Description |
 | --- | --- | --- |
 |  | shift + cmd + t | Reopen a tab in a browser |
-|  | shift + alt + 7 | backslash \|
+|  | shift + alt + 7 | backslash \ |
 |  | alt + n | Tilde character ~ |
 
 
