@@ -1,6 +1,8 @@
 # Hints and tricks when moving from Windows to Mac
 
 I'm working on a Mac with a swiss german keyboard if you have another keyboard, some of the shortcuts might be different.
+![external keyboard layout](https://raw.githubusercontent.com/gwildu/windows-2-mac/master/assets/keyboard_external.jpg "external keyboard layout")
+![internal keyboard layout](https://raw.githubusercontent.com/gwildu/windows-2-mac/master/assets/keyboard_internal.jpg "internal keyboard layout")
 
 # Keyboard shortcuts
 
