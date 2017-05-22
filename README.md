@@ -9,6 +9,7 @@ I'm working on a Mac with a swiss german keyboard if you have another keyboard, 
 |  | shift + cmd + t | Reopen a tab in a browser |
 |  | shift + alt + 7 | backslash \ |
 |  | alt + n | Tilde character ~ |
+|  | cmd + <-- | delete file from macbook keyboard |
 
 
 # command line
@@ -17,3 +18,21 @@ I'm working on a Mac with a swiss german keyboard if you have another keyboard, 
 | --- | --- |
 | `lsof -i :<port-number>` | get Process ID that is occupying a specific port |
 | `kill -9 <pid>` | kill the process that has a specific Process ID |
+
+# environment variables
+
+If you're using the preinstalled terminal application, your env variables should go into:
+
+`~/.bash_profile`
+
+If using zshell they go into:
+
+`~/.zshrc`
+
+in one of those file just add an export line for each your env variables, e.g.,
+
+```
+export GOPATH=~/my-go-path-directory
+export PATH=${GOPATH}/bin
+```
+
