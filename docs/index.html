@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>README.md</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="hints-and-tricks-when-moving-from-windows-to-mac">Hints and tricks when moving from Windows to Mac</h1>
+<p>I&#39;m working on a Mac with a swiss german keyboard if you have another keyboard, some of the shortcuts might be different.<br><img src="https://raw.githubusercontent.com/gwildu/windows-2-mac/master/assets/keyboard_external.jpg" alt="external keyboard layout" title="external keyboard layout"><br><img src="https://raw.githubusercontent.com/gwildu/windows-2-mac/master/assets/keyboard_internal.jpg" alt="internal keyboard layout" title="internal keyboard layout"></p>
+<h1 id="keyboard-shortcuts">Keyboard shortcuts</h1>
+<table>
+<thead>
+<tr>
+<th>Windows</th>
+<th>Mac</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>shift + cmd + t</td>
+<td>Reopen a tab in a browser</td>
+</tr>
+<tr>
+<td></td>
+<td>shift + alt + 7</td>
+<td>backslash \</td>
+</tr>
+<tr>
+<td></td>
+<td>alt + n</td>
+<td>Tilde character ~</td>
+</tr>
+<tr>
+<td></td>
+<td>cmd + &lt;--</td>
+<td>delete file from macbook keyboard</td>
+</tr>
+</tbody>
+</table>
+<h1 id="characters">Characters</h1>
+<table>
+<thead>
+<tr>
+<th>Character</th>
+<th>Description</th>
+<th>Shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>~</td>
+<td>tilde</td>
+<td>alt + n</td>
+</tr>
+</tbody>
+</table>
+<h1 id="command-line">command line</h1>
+<table>
+<thead>
+<tr>
+<th>command</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>lsof -i :&lt;port-number&gt;</code></td>
+<td>get Process ID that is occupying a specific port</td>
+</tr>
+<tr>
+<td><code>kill -9 &lt;pid&gt;</code></td>
+<td>kill the process that has a specific Process ID</td>
+</tr>
+</tbody>
+</table>
+<h1 id="environment-variables">environment variables</h1>
+<p>If you&#39;re using the preinstalled terminal application, your env variables should go into:</p>
+<p><code>~/.bash_profile</code></p>
+<p>If using zshell they go into:</p>
+<p><code>~/.zshrc</code></p>
+<p>in one of those file just add an export line for each your env variables, e.g.,</p>
+<pre><code>export GOPATH=~/my-go-path-directory
+export PATH=${GOPATH}/bin
+</code></pre></body>
+</html>
