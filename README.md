@@ -14,6 +14,13 @@ I'm working on a Mac with a swiss german keyboard if you have another keyboard, 
 |  | cmd + <-- | delete file from macbook keyboard |
 
 
+# Characters
+
+| Character | Description | Shortcut |
+| --- | --- | --- |
+| ~ | tilde | alt + n |
+
+
 # command line
 
 | command | description |
