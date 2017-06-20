@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "markdown README.md -s styles.css > docs/index.html && node-sass styles/main.scss docs/styles.css"
+    "build": "markdown windows2mac.md -s styles.css > docs/index.html && node-sass styles/main.scss docs/styles.css"
   },
   "repository": {
     "type": "git",
