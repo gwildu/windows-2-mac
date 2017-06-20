@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "markdown-to-html": "^0.0.13",
+    "node-sass": "^4.5.3"
+  },
+  "name": "windows-2-mac",
+  "description": "I'm working on a Mac with a swiss german keyboard if you have another keyboard, some of the shortcuts might be different. ![external keyboard layout](https://raw.githubusercontent.com/gwildu/windows-2-mac/master/assets/keyboard_external.jpg \"external keyboard layout\") ![internal keyboard layout](https://raw.githubusercontent.com/gwildu/windows-2-mac/master/assets/keyboard_internal.jpg \"internal keyboard layout\")",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "markdown README.md -s styles.css > docs/index.html && node-sass styles/main.scss docs/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwildu/windows-2-mac.git"
+  },
+  "author": "@gwildu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwildu/windows-2-mac/issues"
+  },
+  "homepage": "https://github.com/gwildu/windows-2-mac#readme"
+}

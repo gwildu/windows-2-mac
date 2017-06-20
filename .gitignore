@@ -1,2 +1,4 @@
 # JetBrains idea folder
 .idea/
+
+/node_modules/
