@@ -12,7 +12,8 @@ I'm working on a Mac with a swiss german keyboard if you have another keyboard, 
 |  | shift + alt + 7 | backslash \ |
 |  | alt + n | Tilde character ~ |
 |  | cmd + <-- | delete file from macbook keyboard |
-
+|  | cmd + shift + 3 | screenshot of entire screen (saved on desktop) |
+|  | cmd + shift + 4 | screenshot with mouse select or from a specific window (saved on desktop) |
 
 # Characters
 
@@ -45,3 +46,11 @@ export GOPATH=~/my-go-path-directory
 export PATH=${GOPATH}/bin
 ```
 
+# Other tricks
+
+## How to uninstall iTunes or other "system required" applications
+
+<https://www.tekrevue.com/tip/uninstall-itunes>
+
+Make sure you deactivate automatic updates for apps from the store (system preferences) 
+to avoid itunes being reinstalled again. 
